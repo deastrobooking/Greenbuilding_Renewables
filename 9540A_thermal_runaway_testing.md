@@ -8,7 +8,7 @@
 
 | Term                             | Symbol           | Units             | Meaning / Use                                                                                                                                  |
 | -------------------------------- | ---------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Heat Release Rate**            | ( \dot{Q}(t) )   | kW or MW          | The *power* of the fire — how fast energy is released as heat at a given moment in time. It’s like the wattage of a heater changing over time. |
+| **Heat Release Rate**            | $$( \dot{Q}(t) )$$   | kW or MW          | The *power* of the fire — how fast energy is released as heat at a given moment in time. It’s like the wattage of a heater changing over time. |
 | **Peak Heat Release Rate**       | ( \dot{Q}_{pk} ) | kW or MW          | The **maximum** heat output measured during the test. Used to design fire suppression systems and spacing.                                     |
 | **Total Heat (Energy Released)** | ( E )            | MJ                | The total amount of heat energy released over time. Calculated by adding up (integrating) HRR:  [E = \int_{t_0}^{t_1} \dot Q(t) , dt]          |
 | **Radiative Fraction**           | ( \chi_r )       | — (dimensionless) | Fraction of total heat radiated as light/heat waves (usually 0.2–0.35). Used to estimate radiant heating of nearby objects.                    |
@@ -406,9 +406,9 @@ Well below 12.5 kW/m² → unlikely piloted ignition of wood-like combustibles f
 **Ceiling jet (detector/sprinkler screening):**
 Ceiling height (H=4.0\ \text{m}), (r=2.0\ \text{m}\Rightarrow r/H=0.5>0.18):
 [
-\Delta T_{\text{jet}}=
+$$\Delta T_{\text{jet}}=
 5.38\left(\frac{1200}{2}\right)^{2/3}\frac{1}{4}
-\approx 5.38,(600)^{2/3}/4 \approx 5.38\times71.1/4\approx95\ ^\circ\text{C}
+\approx 5.38,(600)^{2/3}/4 \approx 5.38\times71.1/4\approx95\ ^\circ\text{C}$$
 ]
 Use this to sanity-check thermal device activation predictions (DETACT/LAVENT) if needed. ([NIST][6])
 
@@ -429,12 +429,12 @@ Use this to sanity-check thermal device activation predictions (DETACT/LAVENT) i
 
 * **H₂ LFL** ≈ **4 % v/v** (air, ambient). Range ≈ 4–75 %. ([AIChE][8])
 * **NFPA 69 design criterion**: keep **global** combustible gas ≤ **25 % LFL** (unless enhanced interlocks allow up to 60 %). ([ammoniaknowhow.com][11])
-* **Well-mixed room**: (C(t)=C_\infty(1-e^{-Qt/V})+C(0)e^{-Qt/V}), (C_\infty=G/Q). ([me.psu.edu][7])
-* **Purge time**: (t=(V/Q)\ln(C_0/C_1)). ([me.psu.edu][7])
-* **Le Chatelier (mixture LFL)**: (1/\text{LFL}_\text{mix}=\sum y_i/\text{LFL}_i). ([digitalcommons.mtu.edu][9])
-* **ppm↔mg/m³** at 25 °C, 1 atm: (\text{mg/m}^3=\text{ppm}\times \text{MW}/24.45). **HF**: 1 ppm ≈ 0.82 mg/m³. ([AIHA][10])
-* **Point-source radiation**: (q''=\chi_r \dot Q/(4\pi R^2)). Compare to ~**12.5 kW/m²** piloted-ignition screen for wood-like materials (literature range). ([Scribd][5])
-* **Ceiling jet (Alpert)**: (\Delta T_{\text{jet}}=16.9,\dot Q^{2/3}/H^{5/3}) (near-axis) or (5.38(\dot Q/r)^{2/3}/H) (farther out). ([NIST][6])
+* **Well-mixed room**: $$(C(t)=C_\infty(1-e^{-Qt/V})+C(0)e^{-Qt/V}), (C_\infty=G/Q)$$. ([me.psu.edu][7])
+* **Purge time**: $$(t=(V/Q)\ln(C_0/C_1))$$. ([me.psu.edu][7])
+* **Le Chatelier (mixture LFL)**: $$(1/\text{LFL}_\text{mix}=\sum y_i/\text{LFL}_i)$$. ([digitalcommons.mtu.edu][9])
+* **ppm↔mg/m³** at 25 °C, 1 atm: $$(\text{mg/m}^3=\text{ppm}\times \text{MW}/24.45)$$. **HF**: 1 ppm ≈ 0.82 mg/m³. ([AIHA][10])
+* **Point-source radiation**: $$(q''=\chi_r \dot Q/(4\pi R^2))$$. Compare to ~**12.5 kW/m²** piloted-ignition screen for wood-like materials (literature range). ([Scribd][5])
+* **Ceiling jet (Alpert)**: $$(\Delta T_{\text{jet}}=16.9,\dot Q^{2/3}/H^{5/3})$$ (near-axis) or (5.38(\dot Q/r)^{2/3}/H) (farther out). ([NIST][6])
 
 ---
 
