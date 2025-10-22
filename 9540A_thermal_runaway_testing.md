@@ -31,7 +31,7 @@ Version: 1.0 (Oct 21, 2025)
 
 **Total heat (energy) released** over $$[t_0,t_1]$$:
 
-# $$ E \;=\; \int_{t_0}^{t_1} \dot Q(t)\,dt $$
+- # $$E \;=\; \int_{t_0}^{t_1} \dot Q(t)\,dt$$
 
 - $$\dot Q(t)$$ = Heat Release Rate (HRR), in kW or MW  
 - $$E$$ in MJ (use numerical integration on tabulated HRR)
