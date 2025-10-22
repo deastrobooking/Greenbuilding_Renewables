@@ -143,7 +143,8 @@ $$
 - Total Energy: $$E\ [\text{MJ}] = \int \dot Q(t) dt$$  
 - Radiative Fraction: $$\chi_r\ [-]$$  
 - Radiant Flux: $$q''_{\text{rad}}\ [\text{kW/m}^2] = \chi_r \dot Q/(4\pi R^2)$$  
-- Convective Flux: $$q''_{\text{conv}}\ [\text{kW/m}^2] = h (T_s - T_\infty)$$  
+- Convective Flux: $$q''_{\text{conv}} [\text{kW/m}^2] = h (T_s - T_\infty)$$
+
 - Heat Transfer Coefficient: $$h\ [\text{W/m}^2\cdot\text{K}]$$
 
 **Ventilation & Gas**
