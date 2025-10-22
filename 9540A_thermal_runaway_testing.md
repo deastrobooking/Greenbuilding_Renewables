@@ -40,7 +40,7 @@ Version: 1.0 (Oct 21, 2025)
 
 **Radiant heat flux at distance $$R$$** (point-source screen):
 
-# $$ q''_{\text{rad}} \;=\; \chi_r \,\frac{\dot Q}{4\pi R^2} $$
+# $$q''_{\text{rad}} \;=\; \chi_r \,\frac{\dot Q}{4\pi R^2}$$
 
 - $$\chi_r$$ = radiative fraction (typ. $$0.2\!-\!0.35$$)
 
