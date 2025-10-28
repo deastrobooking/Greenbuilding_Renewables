@@ -1,6 +1,8 @@
 # Greenbuilding_Renewables
 Collection of Research Writings and Code Research. 
 
+- [Google Storage Energy Storage Materials Research](https://scholar.google.com/citations?hl=en&vq=en&view_op=list_hcore&venue=xEK4yNMXMq8J.2025)
+
 Modern technology, while advancing society, has also produced profound harm to the planet—ecologically, socially, and climatically. However, an emerging global movement emphasizes reshaping technology and society to live harmoniously with nature through sustainable design, regenerative economics, and local empowerment.
 
 ### Major Environmental Harms of Technology
